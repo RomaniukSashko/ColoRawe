@@ -1,11 +1,187 @@
 :root {
-    --bcg-: #012D63;
+    --bcg-top-: #012D63;
+    --text-color-: #FFFFFF;
+    --light-text-: #D8D8D8;
+    --nav-color-: #C7C7C7;
+    --form-color-: #959595;
+    --btn-color-: #8E32C6;
+    --bcg-bottom-: #021635;
+    --form-comfirm-: #8D8D8D;
+    --line-color-: #9B9B9B;
+    --lang-color-: #DCDCDC;
 }
 
-.body {
+.basis {
     font-family: "Roboto";
 }
 
-/* header {
-    background-color: var(--bcg-);
-} */
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    outline: 5px solid var(--btn-color-);
+}
+
+/* Header */
+
+.top {
+    padding-top: 16px;
+    padding-bottom: 17px;
+    background-color: var(--bcg-top-);
+}
+
+.heading {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 29px;
+    margin-right: 70px;
+    margin-left: 148px;
+}
+
+.nav-link {
+    color: var(--nav-color-);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.17;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: var(--text-color-);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.17;
+}
+
+.top-lang {
+    gap: 14px;
+    display: flex;
+}
+
+.lang-link {
+    color: var(--lang-color-);
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.17;
+}
+
+.lang-link:hover, .lang-link:active {
+    color: var(--text-color-);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.17;
+}
+
+
+.active {
+    color: var(--text-color-);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.17;
+}
+
+/* Section Hero */
+
+.hero {
+    padding-top: 91px;
+    padding-bottom: 183px;
+    background-image: url(../images/hero_bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-abbreviation {
+    color: var(--text-color-);
+    font-family: "PT Serif";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+.hero-company {
+    color: var(--text-color-);
+    font-family: "Playfair Display";
+    font-size: 144px;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+.hero-title {
+    color: var(--text-color-);
+    font-family: "Playfair Display";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+.hero-text {
+    margin-top: 12px;
+    margin-bottom: 41px;
+    width: 508px;
+    color: var(--text-color-);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.17;
+}
+
+.hero-button {
+    width: 254px;
+    height: 67px;
+    border-radius: 10px;
+    background-color: var(--btn-color-);
+    border: none;
+    color: var(--text-color-);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+/* Section Advantages */
+
+.advantages {
+    padding-top: 105px;
+    padding-bottom: 105px;
+    background-image: url(../images/advantages_bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.advantages-list {
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 1110px;
+    height: 396px;
+    border: 5px solid var(--btn-color-);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages-title {
+    color: var(--text-color-);
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+.advantages-line {
+    width: 1px;
+    height: 346px;
+    background-color: var(--text-color-);
+}
+
+/* Section Reviews */
+
+/* Section Order */
+
+/* Footer */
