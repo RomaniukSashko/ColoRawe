@@ -1,0 +1,11 @@
+:root {
+    --bcg-: #012D63;
+}
+
+.body {
+    font-family: "Roboto";
+}
+
+/* header {
+    background-color: var(--bcg-);
+} */
