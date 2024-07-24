@@ -78,23 +78,35 @@
                     <li class="reviews-item">
                         <p class="reviews-comment">Sneakers are very comfortable and well painted, nothing has worn off in a year.</p>
                         <p class="reviews-date">25.11</p>
-                        <img src="./images/john.jpg" alt="john" class="reviews-image">
-                        <h3 class="reviews-name">John Teylor</h3>
-                        <p class="reviews-text">With us from 2018</p>
+                        <div class="reviews-client">
+                            <img src="./images/john.jpg" alt="john" class="reviews-image">
+                            <div class="client-info">
+                                <h3 class="reviews-name">John Teylor</h3>
+                                <p class="reviews-text">With us from 2018</p>
+                            </div>
+                        </div>
                     </li>
                     <li class="reviews-item">
                         <p class="reviews-comment">I'm very happy with this color scheme. They match all my clothes.</p>
                         <p class="reviews-date">05.01</p>
-                        <img src="./images/elizabeth.jpg" alt="elizabeth" class="reviews-image">
-                        <h3 class="reviews-name">Elizabeth Garsia</h3>
-                        <p class="reviews-text">With us from 2020</p>
+                        <div class="reviews-client">
+                            <img src="./images/elizabeth.jpg" alt="elizabeth" class="reviews-image">
+                            <div class="client-info">
+                                <h3 class="reviews-name">Elizabeth Garsia</h3>
+                                <p class="reviews-text">With us from 2020</p>
+                            </div>
+                        </div>
                     </li>
                     <li class="reviews-item">
                         <p class="reviews-comment">Just right if you need to go to a party. I use them actively, the paint is super.</p>
                         <p class="reviews-date">18.06</p>
-                        <img src="./images/tom.jpg" alt="tom" class="reviews-image">
-                        <h3 class="reviews-name">Tom Maquare</h3>
-                        <p class="reviews-text">With us from 2019</p>
+                        <div class="reviews-client">
+                            <img src="./images/tom.jpg" alt="tom" class="reviews-image">
+                            <div class="client-info">
+                                <h3 class="reviews-name">Tom Maquare</h3>
+                                <p class="reviews-text">With us from 2019</p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -104,37 +116,46 @@
             <div class="container">
                 <h2 class="order-title">Order</h2>
                 <form class="order-form">
-                    <label class="order-text">Confirm<input type="email" placeholder="Write your email" class="order-input"></label>
+                    <label class="order-text"><input type="email" placeholder="Write your email" class="order-input"></label>
                     <label class="order-text"><input type="text" placeholder="Your Country" class="order-input"></label>
                     <label class="order-text"><input type="text" placeholder="Your City" class="order-input"></label>
                     <label class="order-text"><input type="text" placeholder="Your Adress" class="order-input"></label>
-                    <button type="button">Order my Nike</button>
+                    <button type="button" class="order-button">Order my Nike</button>
                 </form>
             </div>
         </section>
     </main>
     <footer class="bottom">
         <div class="container">
-            <ul class="bottom-list">
-                <li class="bottom-item">
-                    <p class="bottom-questions">Have a question?</p>
-                </li>
-                <li class="bottom-item">
-                    <p class="bottom-questions">Have a proposal for cooperation?</p>
-                </li>
-                <li class="bottom-item">
-                    <p class="bottom-questions">Advertising questions?</p>
-                </li>
-            </ul>
-            <ul class="bottom-list-mail">
-                <li class="mail-item"><a href="mailto:ColoRawe_support@gmail.com" class="mail-mail">ColoRawe_support@gmail.com</a></li>
-                <li class="mail-item"><a href="mailto:ColoRawe_Cooperation@gmail.com" class="mail-mail">ColoRawe_Cooperation@gmail.com</a></li>
-                <li class="mail-item"><a href="mailto:ColoRawe_Advertising@gmail.com" class="mail-mail">ColoRawe_Advertising@gmail.com</a></li>
-            </ul>
-            <p class="bottom-text">2022 ColoRawe @All rights reserved</p>
-            <p class="bottom-location">United States</p>
-            <img src="./images/logo_bottom.png" alt="logo" class="bottom-logo">
-            <p class="bottom-abbreviation">С&R</p>
+            <div class="bottom-lists">
+                <ul class="bottom-list">
+                    <li class="bottom-item">
+                        <p class="bottom-questions">Have a question?</p>
+                    </li>
+                    <li class="bottom-item">
+                        <p class="bottom-questions">Have a proposal for cooperation?</p>
+                    </li>
+                    <li class="bottom-item">
+                        <p class="bottom-questions">Advertising questions?</p>
+                    </li>
+                </ul>
+                <ul class="bottom-list-mail">
+                    <li class="mail-item"><a href="mailto:ColoRawe_support@gmail.com" class="mail-mail">ColoRawe_support@gmail.com</a></li>
+                    <li class="mail-item"><a href="mailto:ColoRawe_Cooperation@gmail.com" class="mail-mail">ColoRawe_Cooperation@gmail.com</a></li>
+                    <li class="mail-item"><a href="mailto:ColoRawe_Advertising@gmail.com" class="mail-mail">ColoRawe_Advertising@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="bottom-line"></div>
+            <div class="bottom-copyrights">
+                <div class="bottom-texts">
+                    <p class="bottom-text">2022 ColoRawe @All rights reserved</p>
+                    <p class="bottom-location">United States</p>
+                </div>
+                <div class="bottom-logo">
+                    <img src="./images/logo_bottom.png" alt="logo" class="bottom-logo">
+                    <p class="bottom-abbreviation">С&R</p>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
